@@ -1,7 +1,7 @@
 import os
 import requests
 
-BASE_URL = "https://yougile.example.com/api-v2"
+BASE_URL = "https://yougile.com/api-v2" 
 TOKEN = os.environ.get("YOUGILE_TOKEN", "ВАШ_ТОКЕН")
 HEADERS = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
 
